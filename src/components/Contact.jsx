@@ -41,7 +41,7 @@ function Contact() {
         {ITEMS.map(item => (
           <li
             key={item.id}
-            href={item.href}
+            onClick={() => window.open(item.href, { target: "_blank" })}
             target="_blank"
             className="flex flex-row backdrop-blur-[2px] justify-between items-center rounded-2xl bg-[#00000070] max-h-20 w-full max-w-[400px] p-6 cursor-pointer duration-75 hover:bg-[rgba(0,0,0,1)]"
           >
