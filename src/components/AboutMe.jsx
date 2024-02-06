@@ -12,7 +12,7 @@ function AboutMe() {
         Sobre Mí
       </h2>
 
-      <div className="backdrop-blur-[2px] text-white text-center text-pretty tracking-wider font-lato flex flex-col justify-center items-center gap-y-2 text-xl px-2 md:px-0 md:text-2xl w-full max-w-[700px]">
+      <div className="backdrop-blur-[2px] text-white text-center text-pretty tracking-wider font-lato flex flex-col justify-center items-center gap-y-2 text-lg px-2 md:px-0 md:text-xl w-full max-w-[600px]">
         <p>
           Soy desarrollador freelance con
           <T> más de 1 año </T>
