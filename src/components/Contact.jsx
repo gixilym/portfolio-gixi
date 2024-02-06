@@ -1,4 +1,4 @@
-import { LinkedInSVG, MailSVG, GithubSVG } from "../svgs";
+import { MailSVG, LinkedInSVG, GithubSVG, CVSVG } from "../svgs.jsx";
 
 function Contact() {
   const ITEMS = [
@@ -16,11 +16,8 @@ function Contact() {
     },
     {
       id: 2,
-      icon: (
-        <span className="text-white text-2xl font-lato pr-1.5 font-semibold">
-          CV
-        </span>
-      ),
+      icon: <CVSVG />,
+
       text: "Curriculum Vitae",
       href: "https://drive.google.com/file/d/121uwJ4hbi4nLfZ1uluyg3KHb1u3fHaP8/view?usp=sharing",
     },
@@ -46,10 +43,10 @@ function Contact() {
             key={item.id}
             href={item.href}
             target="_blank"
-            className="flex flex-row backdrop-blur-[2px] justify-between items-center rounded-2xl bg-[#00000070] max-h-20 w-full max-w-[400px] p-6"
+            className="flex flex-row backdrop-blur-[2px] justify-between items-center rounded-2xl bg-[#00000070] max-h-20 w-full max-w-[400px] p-6 cursor-pointer duration-75 hover:bg-[rgba(0,0,0,1)]"
           >
             <p className="text-[#1df2dc] text-lg sm:text-xl">{item.text}</p>
-            <span>{item.icon}</span>
+            {item.icon}
           </li>
         ))}
       </ul>
