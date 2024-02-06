@@ -77,6 +77,7 @@ function Projects() {
           >
             <img
               src={project.image}
+              loading="lazy"
               alt="project image"
               className="object-cover object-top aspect-[300/200] w-[90%] h-48 rounded-lg brightness-90"
               style={{ boxShadow: "0 0 4px #1df2dc" }}
