@@ -1,18 +1,18 @@
 function AboutMe() {
   const T = ({ children }) => (
-    <span className="text-[#1df2dc] font-lato font-semibold">{children}</span>
+    <span class="text-[#1df2dc] font-lato font-semibold">{children}</span>
   );
 
   return (
     <section
-      className="pt-20 bg-[#17c3b233] min-h-[80vh] flex flex-col items-center justify-center overflow-x-hidden gap-x-3 gap-y-20"
+      class="pt-20 bg-[#17c3b233] min-h-[80vh] flex flex-col items-center justify-center overflow-x-hidden gap-x-3 gap-y-20"
       id="aboutme"
     >
-      <h2 className="text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-5xl text-center w-full capitalize">
+      <h2 class="text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-5xl text-center w-full capitalize">
         Sobre Mí
       </h2>
 
-      <div className="backdrop-blur-[2px] text-white text-center text-pretty tracking-wider font-lato flex flex-col justify-center items-center gap-y-2 text-lg px-2 md:px-0 md:text-xl w-full max-w-[600px]">
+      <div class="backdrop-blur-[2px] text-white text-center text-pretty tracking-wider font-lato flex flex-col justify-center items-center gap-y-2 text-lg px-2 md:px-0 md:text-xl w-full max-w-[600px]">
         <p>
           Soy desarrollador freelance con
           <T> más de 1 año </T>
@@ -39,7 +39,7 @@ function AboutMe() {
           <T> buenas prácticas</T>.
         </p>
         <br />
-        <p className="text-pretty">
+        <p class="text-pretty">
           Si tienes alguna consulta, no dudes en contactarme.
         </p>
       </div>

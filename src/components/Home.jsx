@@ -2,46 +2,46 @@ import Technologies from "./Technologies.jsx";
 
 function Home() {
   return (
-    <main className="flex flex-col flex-nowrap justify-between w-full min-h-screen font-orbitron">
-      <header className="fixed flex justify-center items-center z-10 w-full">
-        <nav className="flex flex-row justify-center items-center w-full h-[45px] gap-x-2 sm:gap-x-6">
+    <main class="flex flex-col flex-nowrap justify-between w-full min-h-screen font-orbitron">
+      <header class="fixed flex justify-center items-center z-10 w-full">
+        <nav class="flex flex-row justify-center items-center w-full h-[45px] gap-x-2 sm:gap-x-6">
           <a
             href="#aboutme"
-            className="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-t-0 text-center uppercase backdrop-blur-md duration-100 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
+            class="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-t-0 text-center uppercase backdrop-blur-md duration-100 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
           >
             Sobre&nbsp;mí
           </a>
           <a
             href="#projects"
-            className="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
+            class="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
           >
             Proyectos
           </a>
           <a
             href="#contact"
-            className="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
+            class="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
           >
             Contacto
           </a>
         </nav>
       </header>
 
-      <p className="Estoy para que no se rompa el estilo" />
+      <p class="Estoy para que no se rompa el estilo" />
 
-      <div className="overflow-hidden flex flex-col items-center justify-evenly w-full h-[45vh] min-h-[400px] mt-6">
+      <div class="overflow-hidden flex flex-col items-center justify-evenly w-full h-[45vh] min-h-[400px] mt-6">
         <div
           style={{ textShadow: "0 0em 2em #1df2dc" }}
-          className="w-full sm:w-[600px] px-4 sm:px-0 tracking-widest text-[#1df2dc] font-bold text-center flex flex-col items-end justify-center"
+          class="w-full sm:w-[600px] px-4 sm:px-0 tracking-widest text-[#1df2dc] font-bold text-center flex flex-col items-end justify-center"
         >
-          <p className="text-lg sm:text-2xl capitalize text-start w-full mr-2">
+          <p class="text-lg sm:text-2xl capitalize text-start w-full mr-2">
             Desarrollador
           </p>
           <br />
-          <h1 className="text-5xl sm:text-7xl capitalize text-center w-full">
+          <h1 class="text-5xl sm:text-7xl capitalize text-center w-full">
             Front End
           </h1>
           <br />
-          <p className="text-lg sm:text-2xl capitalize text-end w-full -mr-2">
+          <p class="text-lg sm:text-2xl capitalize text-end w-full -mr-2">
             Gioliotta
           </p>
         </div>
@@ -49,8 +49,8 @@ function Home() {
         <Technologies />
       </div>
 
-      <footer className="bg-[#17c3b233] w-full flex justify-center items-center py-4">
-        <p className="text-[#1df2dc] tracking-wider text-lg sm:text-2xl">
+      <footer class="bg-[#17c3b233] w-full flex justify-center items-center py-4">
+        <p class="text-[#1df2dc] tracking-wider text-lg sm:text-2xl">
           Estado&nbsp;
         </p>
         <svg
@@ -65,7 +65,7 @@ function Home() {
             fill="#4acb4a"
           />
         </svg>
-        <p className="text-[#4acb4a] tracking-wider text-lg sm:text-2xl">
+        <p class="text-[#4acb4a] tracking-wider text-lg sm:text-2xl">
           &nbsp;
           {Math.round(Math.random() * 10) < 5 ? "Activo" : "Programando"}
         </p>

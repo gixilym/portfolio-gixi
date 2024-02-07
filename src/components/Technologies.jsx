@@ -3,14 +3,14 @@ import * as SVG from "../svgs.jsx";
 
 function Technologies() {
   return (
-    <div className="flex w-full px-6 sm:px-0 justify-center items-center">
+    <section class="flex w-full justify-center items-center overflow-hidden">
       <SVG.ReactSVG />
       <SVG.NodeSVG />
       <SVG.NextSVG />
       <SVG.MongoSVG />
       <SVG.JSSVG />
       <SVG.HtmlSVG />
-      {/* <SVG.GithubSVG /> */}
+      <SVG.GithubSVG />
       <SVG.GitSVG />
       <SVG.FirebaseSVG />
       <SVG.ExpoSVG />
@@ -18,7 +18,7 @@ function Technologies() {
       <SVG.StyledSVG />
       <SVG.TailwindSVG />
       <SVG.ViteSVG />
-    </div>
+    </section>
   );
 }
 

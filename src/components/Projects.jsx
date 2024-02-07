@@ -64,37 +64,37 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="pt-20 w-full h-full bg-[#17c3b233] flex flex-col justify-start gap-y-20"
+      class="pt-20 w-full h-full bg-[#17c3b233] flex flex-col justify-start gap-y-20"
     >
-      <h2 className="w-full text-center text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-5xl">
+      <h2 class="w-full text-center text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-5xl">
         Proyectos
       </h2>
-      <ul className="grid grid-cols-1 lg:grid-cols-2 gap-y-20 p-4 place-items-center">
+      <ul class="grid grid-cols-1 lg:grid-cols-2 gap-y-20 p-4 place-items-center">
         {ITEMS.map(project => (
           <li
             key={project.id}
-            className="w-full max-w-[400px] h-[450px] bg-[#00000066] border border-slate-800 px-1 py-3 overflow-hidden rounded-2xl backdrop-blur-sm flex flex-col items-center justify-between font-lato"
+            class="w-full max-w-[400px] h-[450px] bg-[#00000066] border border-slate-800 px-1 py-3 overflow-hidden rounded-2xl backdrop-blur-sm flex flex-col items-center justify-between font-lato"
           >
             <img
               src={project.image}
               loading="lazy"
               alt="project image"
-              className="object-cover object-top aspect-[300/200] w-[90%] h-48 rounded-lg brightness-90"
+              class="object-cover object-top aspect-[300/200] w-[90%] h-48 rounded-lg brightness-90"
               style={{ boxShadow: "0 0 4px #1df2dc" }}
             />
-            <div className="p-4 flex flex-col justify-start items-start gap-y-4">
-              <div className="w-full flex justify-start gap-x-6 items-center">
-                <h3 className="font-semibold text-lg md:text-xl capitalize text-[#1df2dc]">
+            <div class="p-4 flex flex-col justify-start items-start gap-y-4">
+              <div class="w-full flex justify-start gap-x-6 items-center">
+                <h3 class="font-semibold text-lg md:text-xl capitalize text-[#1df2dc]">
                   {project.name}
                 </h3>
 
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-4 py-2 text-sm font-medium rounded-lg text-black bg-gray-200 hover:bg-white flex items-center justify-center gap-x-2"
+                  class="px-4 py-2 text-sm font-medium rounded-lg text-black bg-gray-200 hover:bg-white flex items-center justify-center gap-x-2"
                   href={project.link}
                 >
-                  <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none">
                     <path
                       d="M15 3.5H20.5M20.5 3.5V9M20.5 3.5L12.5 11.5"
                       stroke="#222222"
@@ -107,26 +107,26 @@ function Projects() {
                       strokeWidth="1.5"
                     />
                   </svg>
-                  <span className="pb-0.5 font-semibold">Visit</span>
+                  <span class="pb-0.5 font-semibold">Visit</span>
                 </a>
               </div>
 
               <div>
-                <p className="text-md text-gray-200 mb-2 text-pretty">
+                <p class="text-md text-gray-200 mb-2 text-pretty">
                   {project.content.description}
                 </p>
-                <p className="text-md  text-gray-200 ">
-                  <span className="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
+                <p class="text-md  text-gray-200 ">
+                  <span class="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
                   &nbsp;&nbsp;
                   {project.content.itemOne}
                 </p>
-                <p className="text-md  text-gray-200 ">
-                  <span className="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
+                <p class="text-md  text-gray-200 ">
+                  <span class="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
                   &nbsp;&nbsp;
                   {project.content.itemTwo}
                 </p>
-                <p className="text-md  text-gray-200 ">
-                  <span className="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
+                <p class="text-md  text-gray-200 ">
+                  <span class="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
                   &nbsp;&nbsp;
                   {project.content.itemThree}
                 </p>
