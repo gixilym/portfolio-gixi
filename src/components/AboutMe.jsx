@@ -39,7 +39,7 @@ function AboutMe() {
         </p>
 
         <p class="text-pretty">
-          <T>E</T>stoy <T>abierto</T> a nuevas oportunidades y desafíos<T>.</T>
+          <T>E</T>stoy <T>abierto</T> a nuevas oportunidades y desafíos<T>. </T>
           Si tienes alguna consulta o proyecto en mente<T>,</T> no dudes en
           contactarme
           <T>.</T>
