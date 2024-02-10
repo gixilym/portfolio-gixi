@@ -38,7 +38,7 @@ function Home() {
           </p>
           <br />
           <h1 class="text-5xl sm:text-7xl capitalize text-center w-full">
-            Front End
+            Frontend
           </h1>
           <br />
           <p class="text-lg sm:text-2xl capitalize text-end w-full -mr-2">
