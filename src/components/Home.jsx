@@ -33,7 +33,7 @@ function Home() {
           style={{ textShadow: "0 0em 2em #1df2dc" }}
           class="w-full sm:w-[600px] px-4 sm:px-0 tracking-widest text-[#1df2dc] font-bold text-center flex flex-col items-end justify-center"
         >
-          <p class="text-lg sm:text-2xl capitalize text-start w-full mr-2">
+          <p class="text-xl sm:text-3xl capitalize text-start w-full mr-2">
             Desarrollador
           </p>
           <br />
@@ -41,7 +41,7 @@ function Home() {
             Frontend
           </h1>
           <br />
-          <p class="text-lg sm:text-2xl capitalize text-end w-full -mr-2">
+          <p class="text-xl sm:text-4xl capitalize text-end w-full sm:mr-10">
             Gixi
           </p>
         </div>

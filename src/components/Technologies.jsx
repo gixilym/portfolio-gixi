@@ -3,7 +3,7 @@ import * as SVG from "../svgs.jsx";
 
 function Technologies() {
   return (
-    <section class="flex w-full justify-center items-center overflow-hidden opacity-65">
+    <section class="flex w-full justify-center items-center overflow-hidden opacity-75">
       <SVG.ReactSVG />
       <SVG.NodeSVG />
       <SVG.NextSVG />
