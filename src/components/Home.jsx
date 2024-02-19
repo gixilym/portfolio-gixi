@@ -42,7 +42,7 @@ function Home() {
           </h1>
           <br />
           <p class="text-lg sm:text-2xl capitalize text-end w-full -mr-2">
-            Gioliotta
+            Gixi
           </p>
         </div>
 
