@@ -18,14 +18,14 @@ function Contact() {
       id: 2,
       icon: <CVSVG />,
 
-      text: "Curriculum Vitae",
+      text: "CV",
       href: "https://drive.google.com/file/d/121uwJ4hbi4nLfZ1uluyg3KHb1u3fHaP8/view?usp=sharing",
     },
     {
       id: 3,
       icon: <GithubSVG />,
       text: "gioliotta",
-      href: "https://github.com/gioliotta",
+      href: "https://github.com/gixi-lym",
     },
   ];
 

@@ -50,7 +50,7 @@ function Projects() {
       name: "Password Generator",
       image: pgIMG,
       link: "https://passwords-create.netlify.app",
-      visitGitHub: "https://github.com/gioliotta/generator-passwords",
+      visitGitHub: "https://github.com/gixi-lym/generator-passwords",
       content: {
         description:
           "Aprendí a manipular y generar cadenas de caracteres de forma aleatoria.",
