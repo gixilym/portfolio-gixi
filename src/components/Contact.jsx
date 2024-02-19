@@ -19,7 +19,7 @@ function Contact() {
       icon: <CVSVG />,
 
       text: "CV",
-      href: "https://drive.google.com/file/d/121uwJ4hbi4nLfZ1uluyg3KHb1u3fHaP8/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1px3-gUOhCTtZZHeU045of9aHTWHRCr1v/view?usp=drive_link",
     },
     {
       id: 3,
