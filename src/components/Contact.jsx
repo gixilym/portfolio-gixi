@@ -24,7 +24,7 @@ function Contact() {
     {
       id: 3,
       icon: <GithubSVG />,
-      text: "gioliotta",
+      text: "gixilym",
       href: "https://github.com/gixilym",
     },
   ];

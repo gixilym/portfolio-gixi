@@ -14,9 +14,9 @@ function AboutMe() {
 
       <div class="backdrop-blur-[2px] text-white text-center text-pretty tracking-wider font-lato flex flex-col justify-center items-center gap-y-8 text-lg px-2 md:px-0 md:text-xl w-full max-w-[600px]">
         <p>
-          <T>¡</T>Hola<T>!</T> Soy Giovanni<T>,</T> desarrollador{" "}
-          <T>frontend</T> con experiencia en proyectos freelance<T>,</T>{" "}
-          especializado en la creación de aplicaciones web<T>.</T>
+          <T>¡</T>Hola<T>!</T> Soy Gixi<T>,</T> desarrollador <T>frontend</T>{" "}
+          con experiencia en proyectos freelance<T>,</T> especializado en la
+          creación de aplicaciones web<T>.</T>
         </p>
         <p>
           <T>A</T>dicional al desarrollo me gusta realizar<T> testing </T> para
