@@ -1,4 +1,6 @@
+import { RocketSVG } from "../svgs.jsx";
 import Technologies from "./Technologies.jsx";
+import rocket from "./rocket.svg";
 
 function Home() {
   return (
@@ -31,23 +33,20 @@ function Home() {
       <div class="overflow-hidden flex flex-col items-center justify-evenly w-full h-[45vh] min-h-[400px] mt-6">
         <div
           style={{ textShadow: "0 0em 2em #1df2dc" }}
-          class="w-full sm:w-[600px] px-4 sm:px-0 tracking-widest text-[#1df2dc] font-bold text-center flex flex-col items-end justify-center"
+          class="w-full sm:w-[600px] px-4 sm:px-0 tracking-widest text-[#1df2dc] font-bold flex flex-col items-center justify-center gap-y-6"
         >
-          <p class="text-xl sm:text-5xl capitalize text-start w-full -mr-7">
-            Gixi
-          </p>
-          <br />
-          <h1 class="text-5xl sm:text-7xl capitalize text-center w-full ">
+          <p class="text-xl sm:text-5xl capitalize text-start w-full ">Gixi</p>
+          <h1 class="text-5xl sm:text-6xl lg:text-8xl capitalize text-center w-full ">
             Frontend
           </h1>
-          <br />
-          <p class="text-xl sm:text-5xl capitalize text-end w-full mr-4">Dev</p>
+          <p class="text-xl sm:text-5xl capitalize text-end w-full ">Dev</p>
         </div>
-
         <Technologies />
       </div>
 
-      <footer class="bg-[#17c3b233] w-full flex justify-center items-center py-4">
+      <RocketSVG />
+
+      <footer class="bg-[#0e6c6333] w-full flex justify-center items-center py-4">
         <p class="text-[#1df2dc] tracking-wider text-lg sm:text-2xl">
           Estado&nbsp;
         </p>

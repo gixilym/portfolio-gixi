@@ -64,12 +64,12 @@ function Projects() {
   return (
     <section
       id="projects"
-      class="pt-20 w-full h-full bg-[#17c3b233] flex flex-col justify-start gap-y-20"
+      class="w-full h-full bg-[#0e6c6333] flex flex-col justify-start items-center gap-y-20"
     >
-      <h2 class="w-full text-center text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-5xl">
+      <h2 class="pt-20 w-full text-center text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-5xl">
         Proyectos
       </h2>
-      <ul class="grid grid-cols-1 lg:grid-cols-2 gap-y-20 p-4 place-items-center">
+      <ul class="w-full lg:w-[65%] grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 lg:gap-y-16">
         {ITEMS.map(project => (
           <li
             key={project.id}

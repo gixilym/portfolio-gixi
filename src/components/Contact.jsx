@@ -31,7 +31,7 @@ function Contact() {
 
   return (
     <section
-      class="bg-[#17c3b233] min-h-[80vh] flex flex-col justify-center items-center py-20 gap-y-20"
+      class="bg-[#0e6c6333] min-h-[80vh] flex flex-col justify-center items-center py-20 gap-y-20"
       id="contact"
     >
       <h2 class="text-[#1df2dc] text-center font-semibold w-full font-orbitron tracking-wider text-4xl md:text-5xl">

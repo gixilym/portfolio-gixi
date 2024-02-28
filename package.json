@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@h0rn0chse/night-sky": "^1.0.5",
     "preact": "^10.19.3"
   },
   "devDependencies": {
