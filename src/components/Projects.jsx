@@ -4,6 +4,7 @@ import qrIMG from "../img/link-to-qr.webp";
 import linkIMG from "../img/image-to-link.webp";
 import cli from "../img/lym-cli.png";
 import spaceVideo from "../img/space.mp4";
+import { twMerge } from "tailwind-merge";
 
 function Projects() {
   const ITEMS = [
@@ -94,7 +95,10 @@ function Projects() {
               src={project.image}
               loading="lazy"
               alt="project image"
-              class="object-cover object-left aspect-[300/200] w-[90%] h-56 rounded-lg brightness-90"
+              class={twMerge(
+                project.name == "lym CLI" ? "object-left" : "object-top",
+                "object-cover aspect-[300/200] w-[90%] h-56 rounded-lg brightness-90"
+              )}
               style={{ boxShadow: "0 0 4px #1df2dc" }}
             />
             <div class="p-4 flex flex-col justify-start items-start gap-y-4 md:gap-y-6">
@@ -151,7 +155,7 @@ function Projects() {
             </div>
           </li>
         ))}
-        <li class="video-container relative w-full max-w-[520px] h-[620px] rounded-2xl border-2 border-[#1df2dd4d] overflow-hidden font-lato">
+        <li class="relative w-full max-w-[520px] h-[540px] md:h-[620px] rounded-2xl border-2 border-[#1df2dd4d] overflow-hidden font-lato">
           <p class="border-t-2 border-[#1df2dd4d] absolute z-10 bottom-0 left-0 text-lg md:text-xl text-white bg-gray-900 text-center p-2">
             Este proyecto está en construcción. Y para no romper la simetría,
             dejo un astronauta saludando
