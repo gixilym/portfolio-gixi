@@ -1,6 +1,5 @@
 import { RocketSVG } from "../svgs.jsx";
 import Technologies from "./Technologies.jsx";
-import rocket from "./rocket.svg";
 
 function Home() {
   return (
@@ -9,19 +8,19 @@ function Home() {
         <nav class="flex flex-row justify-center items-center w-full h-[45px] gap-x-2 sm:gap-x-6">
           <a
             href="#aboutme"
-            class="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-t-0 text-center uppercase backdrop-blur-md duration-100 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
+            class="text-lg md:text-2xl rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-t-0 text-center uppercase backdrop-blur-md duration-100 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
           >
             Sobre&nbsp;mí
           </a>
           <a
             href="#projects"
-            class="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
+            class="text-lg md:text-2xl rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
           >
             Proyectos
           </a>
           <a
             href="#contact"
-            class="text-sm sm:text-lg rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
+            class="text-lg md:text-2xl rounded-bl-2xl rounded-br-2xl px-2 sm:px-8 py-4 border-2 border-[#17c3b2] border-bl-2 border-br-2 border-t-0 bg-transparent text-center uppercase backdrop-blur-md duration-75 text-[#17c3b2] font-bold tracking-wider sm:tracking-widest cursor-pointer hover:bg-[rgb(23,195,178)] hover:text-black"
           >
             Contacto
           </a>
@@ -35,11 +34,11 @@ function Home() {
           style={{ textShadow: "0 0em 2em #1df2dc" }}
           class="w-full sm:w-[600px] px-4 sm:px-0 tracking-widest text-[#1df2dc] font-bold flex flex-col items-center justify-center gap-y-6"
         >
-          <p class="text-xl sm:text-5xl capitalize text-start w-full ">Gixi</p>
-          <h1 class="text-5xl sm:text-6xl lg:text-8xl capitalize text-center w-full ">
+          <p class="text-2xl md:text-6xl capitalize text-start w-full ">Gixi</p>
+          <h1 class="text-5xl md:text-8xl capitalize text-center w-full ">
             Frontend
           </h1>
-          <p class="text-xl sm:text-5xl capitalize text-end w-full ">Dev</p>
+          <p class="text-2xl md:text-6xl capitalize text-end w-full ">Dev</p>
         </div>
         <Technologies />
       </div>

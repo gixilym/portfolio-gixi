@@ -7,6 +7,7 @@
   position: fixed;
   z-index: -10;
 }
+
 .rocket {
   animation: rocketAnimation 2s ease-in-out;
 }
