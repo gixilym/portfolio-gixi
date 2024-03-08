@@ -9,11 +9,11 @@ function AboutMe() {
         class="pt-20 bg-[#0e6c6333] min-h-[80vh] flex flex-col items-center justify-center overflow-x-hidden gap-x-3 gap-y-12"
         id="aboutme"
       >
-        <h2 class="text-[#1df2dc] font-orbitron tracking-widest font-semibold text-5xl md:text-7xl text-center w-full capitalize">
+        <h2 class="text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-6xl text-center w-full capitalize">
           Sobre Mí
         </h2>
 
-        <div class="backdrop-blur-[2px] text-white text-start md:text-center tracking-wider font-lato flex flex-col justify-center items-center gap-y-8 text-xl md:text-3xl px-4 md:px-0 w-full max-w-[900px]">
+        <div class="backdrop-blur-[2px] text-white text-start md:text-center tracking-wider font-lato flex flex-col justify-center items-center gap-y-8 text-lg sm:text-xl px-4 md:px-0 w-full max-w-[600px]">
           <p class="text-pretty">
             <T>¡</T>Hola<T>!</T> Soy Gixi<T>, </T> <br />
             desarrollador <T>frontend</T> con experiencia en proyectos freelance
@@ -44,7 +44,7 @@ function AboutMe() {
         </div>
 
         <div class="px-4 md:px-0 w-full flex justify-center items-center">
-          <p class="w-full md:w-[60%] text-start md:text-center text-white text-xl md:text-3xl text-balance">
+          <p class="w-full md:w-[60%] text-start md:text-center text-white text-lg sm:text-xl text-balance">
             <T> React.js</T>,<T> Next.js</T>,<T> Node.js</T>,<T> Express.js</T>,
             <T> React Native</T>,<T> Playwright</T>,<T> GIT</T>,<T> Vite</T>,
             <T> JavaScript</T>,<T> styled componentes</T>,<T> Tailwind</T>,
