@@ -13,67 +13,51 @@ function Projects() {
       name: "algorithmic market",
       image: amIMG,
       link: "https://algorithmic-market.com/",
-      content: {
-        description:
-          "Aplicación web desarrollada en equipo, en la cual se venden cursos de trading para consumirlas dentro en la misma.",
-        itemOne: "Alojamiento de videos en bunny.",
-        itemTwo: "Autenticación de usuarios con Auth0.",
-        itemThree: "Compras integradas con Stripe.",
-      },
+      description:
+        "Aplicación web desarrollada en equipo, en la cual se venden cursos de trading para consumirlas dentro en la misma.",
+      features:
+        "alojamiento de videos en bunny, autenticación de usuarios con Auth0, compras integradas con Stripe.",
     },
     {
       id: 2,
       name: "lym CLI",
       image: cli,
       link: "https://lym.shuttleapp.rs/",
-      content: {
-        description:
-          "CLI desarrollada con Rust que simplifica algunas labores de los programadores. Incluso la web está hecha con Rocket.",
-        itemOne: "Traduce texto instantáneamente.",
-        itemTwo: "Resuelve operaciones matemáticas.",
-        itemThree: "Obtén la fecha y hora actual.",
-      },
+      description:
+        "CLI desarrollada con Rust que simplifica labores de los programadores. Incluso la web está hecha con Rocket. ",
+      features:
+        "traduce texto instantáneamente, resuelve operaciones matemáticas, obtén la fecha y hora actual.",
     },
     {
       id: 3,
       name: "image to link",
       image: linkIMG,
       link: "https://image-to-link.netlify.app",
-      content: {
-        description:
-          "Convierte imágenes a enlaces fácilmente en segundos. Simple e intuitivo ¡Utilízalos donde quieras!",
-        itemOne: "Implementación de Drag & Drop.",
-        itemTwo: "Generación de enlaces con Cloudinary.",
-        itemThree: "Alertas con react-hot-toast.",
-      },
+      description:
+        "Convierte imágenes a enlaces fácilmente en segundos. Simple e intuitivo ¡Utilízalos donde quieras!",
+      features:
+        "implementación de Drag & Drop, generación de enlaces con Cloudinary, alertas con react-hot-toast.",
     },
     {
       id: 4,
       name: "link to QR",
       image: qrIMG,
       link: "https://linkto-qr.netlify.app",
-      content: {
-        description:
-          "Genera códigos QR personalizados, permite a los usuarios crearlos a partir de los enlaces que proporcionen.",
-        itemOne: "Permite descargar el QR generado.",
-        itemTwo: "QR único asociado para cada enlace.",
-        itemThree: "Generación de QR con react-qr-code.",
-      },
+      description:
+        "Genera códigos QR personalizados, permite a los usuarios crearlos a partir de los enlaces que proporcionen.",
+      features:
+        "permite descargar el QR generado, QR único asociado para cada enlace, generación de QR con react-qr-code.",
     },
-
     {
       id: 5,
       name: "Password Generator",
       image: pgIMG,
       link: "https://passwords-create.netlify.app",
       visitGitHub: "https://github.com/gixilym/generator-passwords",
-      content: {
-        description:
-          "Refuerza tu seguridad en línea generando combinaciones de caracteres aleatorias para utilizar como contraseñas.",
-        itemOne: "Longitud personalizable.",
-        itemTwo: "Capacidad de usar caracteres especiales.",
-        itemThree: "Opción para copiar con un botón.",
-      },
+      description:
+        "Refuerza tu seguridad en línea generando combinaciones de caracteres aleatorias para utilizar como contraseñas.",
+      features:
+        "longitud personalizable, capacidad de usar caracteres especiales, opción para copiar con un botón.",
     },
   ];
 
@@ -82,14 +66,14 @@ function Projects() {
       id="projects"
       class="w-full h-full bg-[#0e6c6333] flex flex-col justify-start items-center gap-y-20 px-1 md:px-0"
     >
-      <h2 class="pt-20 w-full text-center text-[#1df2dc] font-orbitron tracking-widest font-semibold text-5xl md:text-7xl">
+      <h2 class="pt-20 w-full text-center text-[#1df2dc] font-orbitron tracking-widest font-semibold text-4xl md:text-6xl">
         Proyectos
       </h2>
-      <ul class="w-full lg:w-[65%] grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 lg:gap-y-16">
+      <ul class="w-full md:w-[75%] grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 lg:gap-y-16">
         {ITEMS.map(project => (
           <li
             key={project.id}
-            class="w-full max-w-[520px] h-[540px] md:h-[620px] bg-[#00000066] border border-slate-800 px-1 py-6 overflow-hidden rounded-2xl backdrop-blur-sm flex flex-col items-center justify-between gap-y-5 font-lato"
+            class="w-full max-w-[450px] h-auto  sm:h-[540px] bg-[#00000066] border border-slate-800 px-1 py-6 overflow-hidden rounded-2xl backdrop-blur-sm flex flex-col items-center justify-start gap-y-2 font-lato"
           >
             <img
               src={project.image}
@@ -103,14 +87,14 @@ function Projects() {
             />
             <div class="p-4 flex flex-col justify-start items-start gap-y-4 md:gap-y-6">
               <div class="w-full flex justify-between gap-x-6 items-center">
-                <h3 class="font-semibold text-lg md:text-3xl capitalize text-[#1df2dc]">
+                <h3 class="font-semibold text-lg md:text-xl capitalize text-[#1df2dc]">
                   {project.name}
                 </h3>
 
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="px-4 py-2 text-sm font-medium rounded-lg text-black bg-gray-200 hover:bg-white flex items-center justify-center gap-x-2"
+                  class="px-2 py-1 text-sm font-medium rounded-lg text-black bg-gray-200 hover:bg-white flex items-center justify-center gap-x-2"
                   href={project.link}
                 >
                   <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none">
@@ -126,37 +110,26 @@ function Projects() {
                       strokeWidth="2"
                     />
                   </svg>
-                  <span class="pb-0.5 font-semibold text-lg md:text-xl">
+                  <span class="pb-0.5 font-semibold text-md md:text-lg">
                     Visit
                   </span>
                 </a>
               </div>
 
-              <div>
-                <p class="text-md md:text-2xl mb-5 text-gray-200 text-pretty">
-                  {project.content.description}
+              <div class="flex flex-col justify-start items-start gap-y-2">
+                <p class="text-md sm:text-lg text-gray-200 text-pretty">
+                  {project.description}
                 </p>
-                <p class="text-md md:text-2xl   text-gray-200 ">
-                  <span class="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
-                  &nbsp;&nbsp;
-                  {project.content.itemOne}
-                </p>
-                <p class="text-md md:text-2xl  text-gray-200 ">
-                  <span class="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
-                  &nbsp;&nbsp;
-                  {project.content.itemTwo}
-                </p>
-                <p class="text-md md:text-2xl  text-gray-200 ">
-                  <span class="text-[#1df2dc]">&nbsp;&nbsp;&gt;</span>
-                  &nbsp;&nbsp;
-                  {project.content.itemThree}
+                <p class="text-md sm:text-lg text-gray-200 text-pretty">
+                  <span class="text-[#1df2dc]">Características: </span>
+                  {project.features}
                 </p>
               </div>
             </div>
           </li>
         ))}
-        <li class="relative w-full max-w-[520px] h-[540px] md:h-[620px] rounded-2xl border-2 border-[#1df2dd4d] overflow-hidden font-lato">
-          <p class="border-t-2 border-[#1df2dd4d] absolute z-10 bottom-0 left-0 text-lg md:text-xl text-white bg-gray-900 text-center p-2">
+        <li class="hidden lg:flex w-full max-w-[450px] h-[540px] bg-[#00000066] border border-slate-800 overflow-hidden rounded-2xl backdrop-blur-sm flex-col items-center justify-start gap-y-5 font-lato">
+          <p class="border-t-2 border-[#1df2dd4d] absolute z-10 bottom-0 left-0 text-md sm:text-lg text-white bg-gray-900 text-center p-2">
             Este proyecto está en construcción. Y para no romper la simetría,
             dejo un astronauta saludando
           </p>
