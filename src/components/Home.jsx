@@ -4,7 +4,7 @@ import Technologies from "./Technologies.jsx";
 function Home() {
   return (
     <main class="flex flex-col flex-nowrap justify-between w-full min-h-screen font-orbitron">
-      <header class="fixed flex justify-center items-center z-10 w-full">
+      <header class="flex sm:fixed justify-center items-center z-10 w-full">
         <nav class="flex flex-col sm:flex-row justify-start sm:justify-center items-center w-full sm:h-[40px] sm:gap-x-4 bg-[#0e6c6333] sm:bg-transparent">
           <a
             href="#aboutme"
